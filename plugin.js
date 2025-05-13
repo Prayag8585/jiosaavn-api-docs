@@ -16,7 +16,6 @@ const COLORS = {
 };
 
 // Watermark for logs
-const WATERMARK = `${COLORS.YELLOW}[Coded by bre4d77]${COLORS.RESET}`;
 const LOG_PREFIX_DEBUG = `${COLORS.BLUE}[KazagumoJioSaavn]${COLORS.RESET}`;
 const LOG_PREFIX_ERROR = `${COLORS.RED}[KazagumoJioSaavn]${COLORS.RESET}`;
 
