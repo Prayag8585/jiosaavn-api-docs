@@ -76,7 +76,7 @@ export class KazagumoPlugin extends Plugin {
       const messageParts = args.map(arg => 
         typeof arg === 'string' ? `${COLORS.CYAN}${arg}${COLORS.RESET}` : arg
       );
-      console.log(`${LOG_PREFIX_DEBUG} ${WATERMARK}`, ...messageParts);
+      console.log(`${LOG_PREFIX_DEBUG}`, ...messageParts);
     }
   }
 
